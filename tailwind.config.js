@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
      extend: {
+      zIndex: {
+        '60': '60',
+      },
       screens: {
         '3xl': '1600px',
         '2.5xl': '1570px',

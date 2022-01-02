@@ -19,7 +19,7 @@ function Main() {
             </div>
 
             <div className=" col-span-2 text-white  bg-black h-screen overflow-hidden">center</div>
-            <div className=" mt-4  hidden md:inline-block bg-gray-200 h-screen overflow-hidden">
+            <div className=" mt-4  hidden  md:inline-block bg-gray-200 h-screen overflow-hidden">
 
                 <Sidenav className=" h-screen top-2"/>
             
