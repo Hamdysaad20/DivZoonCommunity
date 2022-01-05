@@ -1,4 +1,4 @@
-import Sidenav from "./sidenav"
+import Sidenav from "./Sidenav"
 import VideoPostMain from "./VideoPostMain";
 
 function MainOtherPages() {

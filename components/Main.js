@@ -1,6 +1,6 @@
 import BlogcompMain from "./BlogcompMain"
 import BlogPost from "./BlogPost"
-import Sidenav from "./sidenav"
+import Sidenav from "./Sidenav"
 import Sidinfo from "./Sidinfo"
 import VideoPost from "./VideoPost"
 
@@ -45,7 +45,11 @@ function Main() {
             </div>
             <div className=" mt-4  hidden  sm:inline-block bg-gray-200 h-screen overflow-hidden">
 
-                <Sidenav className=" h-screen top-2"/>
+                <Sidenav 
+               
+               className=" h-screen top-2"
+                
+                />
             
             </div>
         </div>
