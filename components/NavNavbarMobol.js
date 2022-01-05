@@ -5,8 +5,7 @@ function NavNavbarMobol(props) {
 
     function toggle(thz){
         setShowMe(!showMe);
-        var elmt = thz.nextElementSibling;
-        elmt.classList.toggle("acordianPanelHidden");
+
       }
  
  
@@ -18,21 +17,21 @@ function NavNavbarMobol(props) {
           <header className="  block sm:hidden mt-[-4px] overflow-hidden lg:max-w-9xl sticky top-0 z-50   bg-white shadow-sm pt-2">
 
 <div className=" mx-3 gap-4 mx-1 md:mx-15 xl:mx-16 grid md:outline-hidden grid-cols-5    text-center">
-<Link href="/">
+<Link href="/"passHref>
 <div  className={props.home}>
 <div  className=" py-2 ease-out  transition  duration-200 hover:bg-gray-100 rounded-lg  ">
 <svg className="h-6 pt-1 w-6 mx-auto" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/></svg>
 </div>
 </div>
 </Link>
-<Link href="video">
+<Link href="video"passHref>
 <div className={props.video}>
 <div className=" py-2 transition  duration-200 hover:bg-gray-100 rounded-lg  ">
 <svg className="h-6 pt-1 w-6 mx-auto" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path d="M20.494,7.968l-9.54-7A5,5,0,0,0,3,5V19a5,5,0,0,0,7.957,4.031l9.54-7a5,5,0,0,0,0-8.064Zm-1.184,6.45-9.54,7A3,3,0,0,1,5,19V5A2.948,2.948,0,0,1,6.641,2.328,3.018,3.018,0,0,1,8.006,2a2.97,2.97,0,0,1,1.764.589l9.54,7a3,3,0,0,1,0,4.836Z"/></svg>
 </div>
 </div>
 </Link>
-<Link href="shop">
+<Link href="shop"passHref>
 <div className={props.shop}>
 
 <div className=" py-2 transition  duration-200 hover:bg-gray-100 rounded-lg  ">
@@ -42,7 +41,7 @@ function NavNavbarMobol(props) {
 
 </div></Link>
 
-<Link href="groups">
+<Link href="groups" passHref >
 <div className={props.group}>
 <div  className=" py-2 transition  duration-200 hover:bg-gray-100 rounded-lg  ">
 <svg className="h-6 pt-1 w-6 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M9.55 11.5a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5zm.45 8.248V16.4c0-.488.144-.937.404-1.338a6.473 6.473 0 0 0-5.033 1.417A8.012 8.012 0 0 0 10 19.749zM4.453 14.66A8.462 8.462 0 0 1 9.5 13c1.043 0 2.043.188 2.967.532.878-.343 1.925-.532 3.033-.532 1.66 0 3.185.424 4.206 1.156a8 8 0 1 0-15.253.504zm14.426 1.426C18.486 15.553 17.171 15 15.5 15c-2.006 0-3.5.797-3.5 1.4V20a7.996 7.996 0 0 0 6.88-3.914zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm3.5-9.5a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg></div></div>
@@ -105,7 +104,7 @@ function NavNavbarMobol(props) {
            <div className="flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2   text-right justify-end rounded-md  hover:bg-gray-100 duration-300">
            <div className="text-left mr-2 text-lg font-semibold">المحفوظات</div>  
             <div className="   " >
-            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 2h14a1 1 0 0 1 1 1v19.143a.5.5 0 0 1-.766.424L12 18.03l-7.234 4.536A.5.5 0 0 1 4 22.143V3a1 1 0 0 1 1-1zm13 2H6v15.432l6-3.761 6 3.761V4z"/></svg>
+            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 2h14a1 1 0 0 1 1 1v19.143a.5.5 0 0 1-.766.424L12 18.03l-7.234 4.536A.5.5 0 0 1 4 22.143V3a1 1 0 0 1 1-1zm13 2H6v15.432l6-3.761 6 3.761V4z"/></svg>
             </div> 
            
            </div>
