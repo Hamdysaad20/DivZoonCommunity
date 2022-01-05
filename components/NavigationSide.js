@@ -1,16 +1,23 @@
+import Link from "next/link"
+
 function navigationSide() {
     return (
         <div className="grid grid-rows-3 max-w-[500px]"> 
-           
+          
+           <Link href="/"passHref >
             <div className="flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44 text-right justify-end  p-2  rounded-md  hover:bg-gray-100 duration-300">
+            
             <div className=" mr-2 text-lg font-semibold"> هات قهوتك</div>  
              <div className="  right-0 " >
              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 13V5H6v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2zM5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1zm13 2v3h2V5h-2zM2 19h18v2H2v-2z"/></svg>
 
              </div> 
-            </div>
-
-
+               </div>
+        </Link> 
+           
+           
+           
+            <Link href="/"passHref >
             <div className="flex flex-cols-2  md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2 text-right justify-end  rounded-md  hover:bg-gray-100 duration-300">
             <div className="text-left mr-2 text-lg font-semibold">المقالات</div>  
              <div className="   " >
@@ -18,9 +25,11 @@ function navigationSide() {
              </div> 
             
             </div>
+            </Link>
 
-
-
+           
+           
+            <Link href="/"passHref >
             <div className="flex flex-cols-2  md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2 text-right justify-end  rounded-md  hover:bg-gray-100 duration-300">
             <div className="text-left mr-2 text-lg font-semibold">الكورسات</div>  
              <div className="   " >
@@ -28,9 +37,10 @@ function navigationSide() {
              </div> 
             
             </div>
+            </Link>
 
-
-
+           
+            <Link href="/"passHref >
             <div className="flex flex-cols-2  md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2   text-right justify-end rounded-md  hover:bg-gray-100 duration-300">
             <div className="text-left mr-2 text-lg font-semibold">المتجر</div>  
              <div className="   " >
@@ -38,23 +48,27 @@ function navigationSide() {
              </div> 
             
             </div>
+            </Link>
 
-
-
+          
+            <Link href="/"passHref >
             <div className="flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2   text-right justify-end rounded-md  hover:bg-gray-100 duration-300">
             <div className="text-left mr-2 text-lg font-semibold">المحفوظات</div>  
              <div className="   " >
-             <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 2h14a1 1 0 0 1 1 1v19.143a.5.5 0 0 1-.766.424L12 18.03l-7.234 4.536A.5.5 0 0 1 4 22.143V3a1 1 0 0 1 1-1zm13 2H6v15.432l6-3.761 6 3.761V4z"/></svg>
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 2h14a1 1 0 0 1 1 1v19.143a.5.5 0 0 1-.766.424L12 18.03l-7.234 4.536A.5.5 0 0 1 4 22.143V3a1 1 0 0 1 1-1zm13 2H6v15.432l6-3.761 6 3.761V4z"/></svg>
              </div> 
-            
             </div>
+            </Link>
+          
+          
+            <Link href="/"passHref >
             <div className="flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2   text-right justify-end rounded-md  hover:bg-gray-100 duration-300">
             <div className="text-left mr-2 text-lg font-semibold">ادعمنا</div>  
              <div className="   " >
              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228 2.349-2.109 5.979-2.039 8.242.228zM5.172 6.172c-1.49 1.49-1.565 3.875-.192 5.451L12 18.654l7.02-7.03c1.374-1.577 1.299-3.959-.193-5.454-1.487-1.49-3.881-1.562-5.453-.186l-4.202 4.203-1.415-1.414 2.825-2.827-.082-.069c-1.575-1.265-3.877-1.157-5.328.295z"/></svg>             </div> 
             
             </div>
-
+            </Link>
 
             
         </div>
