@@ -9,12 +9,12 @@ function BlogcompMain(props) {
                 <div className="noselect  font-medium text-gray-600 text-sm mr-1 pt-2">{props.UserName}</div>
                 <div className="font-medium text-right mr-1 text-gray-800 opacity-60 text-xs  ">{props.PostDate}س</div>
 </div>
-<div className="h-10 mt-2 w-10"> 
-    <Image alt="UserImage" className="rounded-lg" src={props.userImage}height="80"  width="80"/>
+<div className="noselect cursor-pointer h-10 mt-2 w-10"> 
+    <Image alt="UserImage" className="cursor-pointer noselect rounded-lg" src={props.userImage}height="80"  width="80"/>
 </div>
                 </div>
                 <div className="h-[100px] ">
-<div className="overflow-hidden text-right mx-3 lg:mr-12 text-clip text-gray-600 font-bold  decoration-gray-500  lg:text-3xl  duration-500 leading-relaxed md:text-2xl tracking-normal oldstyle-nums   text-xl">
+<div className="cursor-pointer overflow-hidden text-right mx-3 lg:mr-12 text-clip text-gray-600 font-bold  decoration-gray-500  lg:text-3xl  duration-500 leading-relaxed md:text-2xl tracking-normal oldstyle-nums   text-xl">
     {props.PostTitle}
 </div>
 <div className="mx-5">
