@@ -4,11 +4,12 @@ import Footer from './Footer';
 
 function sidenav() {
     return (
-        <aside  className="h-screen sticky top-0  text-right">
+        <div  className="h-screen sticky top-0  text-right">
             <NavigationSide/>
+            
             <AdArea/>
             <Footer/>
-        </aside>
+        </div>
     )
 }
 

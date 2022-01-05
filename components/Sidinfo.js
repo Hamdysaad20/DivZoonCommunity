@@ -8,12 +8,12 @@ function sidinfo(props) {
             <div className=" 3xl:ml-96  2xl:ml-44 2.5xl:ml-44 justify-center text-center  xl:ml-32 lg:ml-32 lg:mr-4 md:ml-32 md:mt-4 h-[350px] max-w-[200px] xl:mr-3 bg-gray-100    rounded-md  overflow-hidden  shadow-sm pb-2">
        
        <div className=" w-full  h-16">
-       <Image className=""  height="70" width="200" src={props.imgUrlCover}/>
+       <Image className="" alt=""  height="70" width="200" src={props.imgUrlCover}/>
 
        </div>
       
        <div className="    z-50 mt-[-26px]"> 
-       <Image className=" rounded-full " height="70" width="70" src={props.imgUrl}/>
+       <Image alt="" className=" rounded-full " height="70" width="70" src={props.imgUrl}/>
        </div>
        <div className="text-center bg-gray-100 w-full h-full mt-[-30px]">
        <h1 className="mt-9 duration-500 hover:underline hover:underline-offset-4 font-medium text-sm  z-50">{props.UserName}</h1>

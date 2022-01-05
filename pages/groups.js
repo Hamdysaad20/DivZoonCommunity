@@ -1,24 +1,23 @@
-import MainOtherPages from "../components/MainOtherPages"
 import NavBar from "../components/NavBar"
 import NavNavbarMobol from "../components/NavNavbarMobol"
 import NavnonavsBar from "../components/NavnonavsBar"
-
-function video() {
+function groups() {
     return (
-        <div className="bg-gray-200">
+        <div>
+                    <div className="bg-gray-200">
         <NavBar
         className="sticky top-0 overflow-hidden" 
-        video="border-b-4 border-red-500"
+        group="border-b-4 border-red-500"
         />
        <NavnonavsBar />
        <NavNavbarMobol
              className="sticky top-0 overflow-hidden" 
-             video="border-b-4 border-red-500"  
+             group="border-b-4 border-red-500"  
        />
-       <MainOtherPages/>
 
       </div>
+        </div>
     )
 }
 
-export default video
+export default groups
