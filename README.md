@@ -1,3 +1,7 @@
+## DivzoonCommunity
+## This is a Side project that i Created i hope you enjoy it, the source code is free , feel free to edit to adopt but not fully copy .
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
