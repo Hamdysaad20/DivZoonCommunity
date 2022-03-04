@@ -23,3 +23,6 @@ html {
 .fullscreen {
   max-width: 100rem /* 1280px */;
 }
+.darkmode {
+  background-image: url(../public/bg.jpg);
+}

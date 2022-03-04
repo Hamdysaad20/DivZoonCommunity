@@ -1,11 +1,11 @@
 import MainOtherPages from "../components/MainOtherPages";
-import NavBar from "../components/NavBar";
-import NavNavbarMobol from "../components/NavNavbarMobol";
-import NavnonavsBar from "../components/NavnonavsBar";
+import NavBar from "../components/nav/NavBar";
+import NavNavbarMobol from "../components/nav/NavNavbarMobol";
+import NavnonavsBar from "../components/nav/NavnonavsBar";
 
 function video() {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-100'>
       <NavBar
         className='sticky top-0 overflow-hidden'
         video='border-b-4 border-red-500'

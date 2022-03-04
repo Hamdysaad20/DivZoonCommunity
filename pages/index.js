@@ -1,10 +1,10 @@
 import Main from "../components/Main";
-import NavBar from "../components/NavBar";
-import NavNavbarMobol from "../components/NavNavbarMobol";
-import NavnonavsBar from "../components/NavnonavsBar";
+import NavBar from "../components/nav/NavBar";
+import NavNavbarMobol from "../components/nav/NavNavbarMobol";
+import NavnonavsBar from "../components/nav/NavnonavsBar";
 export default function Home() {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-100 '>
       <NavBar
         className='sticky top-0 overflow-hidden'
         home='border-b-4 border-red-500'
@@ -14,7 +14,7 @@ export default function Home() {
         className='sticky top-0 overflow-hidden'
         home='border-b-4 border-red-500'
       />
-      <Main className='blur-xl bg-red-400' />
+      <Main className='blur-xl ' />
     </div>
   );
 }

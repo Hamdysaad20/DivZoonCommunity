@@ -1,8 +1,8 @@
 function Layout() {
   return (
-    <footer style={{}} className='bg-gray-200 bottom-0 '>
+    <footer style={{}} className='bg-gray-100 bottom-0 '>
       <div className=' mt-4 '>
-        <div className='relative  justify-center text-center mt-4 h-[250px] max-w-[300px] xl:ml-3    rounded-md     z-50  bg-gray-100 shadow-sm py-2'>
+        <div className='relative  justify-center text-center mt-4 h-[250px] max-w-[300px] xl:ml-3    rounded-md     z-50  bg-gray-200 shadow-sm py-2'>
           <h2 className='text-xs font-thin text-gray-400'>
             . <span className='noselect hover:text-gray-800'>الخصوصية</span>.{" "}
             <span className='noselect hover:text-gray-800'>الشروط </span>.{" "}

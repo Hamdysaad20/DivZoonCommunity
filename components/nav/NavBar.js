@@ -8,7 +8,7 @@ function NavBar(props) {
   var [showG, setShowG] = React.useState();
 
   return (
-    <div className='invisible sm:visible'>
+    <div className='invisible sm:visible fixed w-full z-60'>
       <header className=' text-center overflow-hidden lg:max-w-9xl sticky top-0 z-50 grid grid-cols-3  bg-white shadow-sm pt-2'>
         <div
           style={{ color: "red", fontWeight: 800 }}
