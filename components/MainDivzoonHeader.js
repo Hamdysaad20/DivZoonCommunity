@@ -9,7 +9,7 @@ function MainDivzoonHeader() {
       <Image
         src='/divlogo.png'
         alt='navigation'
-        height='32'
+        height='27'
         width='118'
       />
     </div>
