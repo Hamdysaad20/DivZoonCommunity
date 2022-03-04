@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import ReactTooltip from "react-tooltip";
 function NavNavbarMobol(props) {
   const [showMe, setShowMe] = useState(false);
 
@@ -12,8 +13,8 @@ function NavNavbarMobol(props) {
     <div>
       <header className='  block sm:hidden mt-[-4px] overflow-hidden lg:max-w-9xl sticky top-0 z-50   bg-white shadow-sm pt-2'>
         <div className=' mx-3 gap-4 mx-1 md:mx-15 xl:mx-16 grid md:outline-hidden grid-cols-5    text-center'>
-          <Link href='/' passHref>
-            <div className={props.home}>
+          <Link  href='/' passHref>
+            <div   className={props.home}>
               <div className='cursor-pointer  noselect  py-2 ease-out  transition  duration-200 hover:bg-gray-100 rounded-lg  '>
                 <svg
                   className='h-6 pt-1 w-6 mx-auto'
@@ -26,7 +27,10 @@ function NavNavbarMobol(props) {
                 </svg>
               </div>
             </div>
-          </Link>
+
+
+          </Link>           
+         
           <Link href='video' passHref>
             <div className={props.video}>
               <div className=' cursor-pointer  noselect py-2 transition  duration-200 hover:bg-gray-100 rounded-lg  '>

@@ -13,7 +13,6 @@ function NavBar(props) {
         <div
           style={{ color: "red", fontWeight: 800 }}
           className=' text-left md:text-center ml-3 sm:ml-7 text-2xl md:text-3xl py-auto md:pt-0 pt-1'>
-          <div className='lg:pb-1'>Divzoon</div>
         </div>
 
         <div className=' gap-3 mx-1 md:mx-15 xl:mx-16 grid md:outline-hidden grid-cols-4    text-center'>

@@ -10,13 +10,8 @@ function Main() {
         <div className='  hidden lg:block  text-center  overflow-hidden h-screen'>ddd</div>
 
         <div className='  lg:col-span-2 col-span-2 scroll-m-0 overflow-scroll text-white px-2 h-screen '>
-          <div className=''>
-            <BlogcompMain
-              userImage='/2.jpg'
-              UserName='حمدي سعد'
-              PostDate='2'
-              PostTitle=' متبيلتم منتب  نمات  بعلبعلهخب'
-            />
+          <div className=' mt-20'>
+
             <BlogPost
               userImage='/ad300x250.png'
               UserName='حمدي سعد'

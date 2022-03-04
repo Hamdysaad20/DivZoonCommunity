@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <title>Divzoon👨‍💻 </title>
         <link rel='icon' href='/divicobg.ico' />
       </Head>
-      <MainDivzoonHeader/>
+
       <main className={styles.main}>{children}</main>
     </>
   );
