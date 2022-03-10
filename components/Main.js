@@ -1,4 +1,4 @@
-import AnnoumceHome from "./adslayout/annoumceHome";
+import AnnoumceHome from "./adslayout/AnnoumceHome";
 import BlogPost from "./bloglayout/BlogPost";
 import Sidenav from "./nav/Sidenav";
 import VideoPost from "./videoscomponents/VideoPost";
