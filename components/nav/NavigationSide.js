@@ -4,7 +4,7 @@ function navigationSide() {
   return (
     <div className='grid select-none grid-rows-3 max-w-[500px]'>
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20 text-right justify-end  p-2  rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20 text-right justify-end  p-2  rounded-md  hover:bg-gray-200 duration-300'>
           <div className=' mr-2 text-lg font-semibold'> هات قهوتك</div>
           <div className='  right-0 '>
             <svg
@@ -20,7 +20,7 @@ function navigationSide() {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2  md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2  md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 text-lg font-semibold'>المقالات</div>
           <div className='   '>
             <svg
@@ -36,7 +36,7 @@ function navigationSide() {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2  md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2  md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 text-lg font-semibold'>الكورسات</div>
           <div className='   '>
             <svg
@@ -52,7 +52,7 @@ function navigationSide() {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 text-lg font-semibold'>المتجر</div>
           <div className='   '>
             <svg
@@ -68,7 +68,7 @@ function navigationSide() {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 text-lg font-semibold'>المحفوظات</div>
           <div className='   '>
             <svg
@@ -84,7 +84,7 @@ function navigationSide() {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer flex flex-cols-2 md:mr-12 lg:mr-12 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 text-lg font-semibold'>ادعمنا</div>
           <div className='   '>
             <svg

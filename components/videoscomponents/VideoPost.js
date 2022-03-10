@@ -2,7 +2,7 @@
 function VideoPost(props) {
     return (
        
-       <div className=" shadow-md bg-gray-300 h-[500px] lg:h-[600px] mt-12 z-10  relative  mx-auto max-w-2xl rounded-md ">
+       <div className=" shadow-md bg-gray-300 h-[500px] lg:h-[600px] mt-12 z-10  relative mb-7 mx-auto max-w-2xl rounded-md ">
  <div className=" h-[250px] rounded-t-md ">
 <video autoPlay="true" src="https://res.cloudinary.com/divzoon2022/video/upload/v1641347285/samples/elephants.mp4"/>
            </div>

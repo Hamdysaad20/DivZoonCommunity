@@ -1,5 +1,4 @@
 import  Image  from 'next/image';
-import AdArea from './AdArea';
 function sidinfo(props) {
 
     return (

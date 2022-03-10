@@ -5,7 +5,7 @@ import NavnonavsBar from "../components/nav/NavnonavsBar";
 import MainDivzoonHeader from "../components/MainDivzoonHeader";
 export default function Home() {
   return (
-    <div className='bg-gray-100 '>
+    <div className='bg-gray-100 h-full  '>
   <MainDivzoonHeader/>
       <NavBar
         className='sticky top-0 overflow-hidden'
@@ -16,7 +16,7 @@ export default function Home() {
         className='sticky top-0 overflow-hidden'
         home='border-b-4 border-red-500'
       />
-      <Main className='blur-xl ' />
+      <Main className='blur-xl h-screen   ' />
     </div>
   );
 }
