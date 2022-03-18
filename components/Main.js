@@ -16,10 +16,10 @@ function Main() {
 
         <div className='  lg:col-span-2  mx-4 sm:mx-0 col-span-2 scroll-m-4 overflow-scroll text-white px-2 h-full '>
         
-        <div className='mt-16'>
+        <div className='mt-3  sm:mt-16'>
         <AnnoumceHome/>
    </div>
-          <div className='h-screen  mt-20'>
+          <div className='h-screen  mt-16'>
           <BlogPost
               userImage='/ad300x250.png'
               UserName='حمدي سعد'

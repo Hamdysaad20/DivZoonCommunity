@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       zIndex: {
         60: "60",
+        70: "70",
       },
       screens: {
         "3xl": "1600px",

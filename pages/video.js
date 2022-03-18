@@ -6,17 +6,19 @@ import MainDivzoonHeader from "../components/MainDivzoonHeader";
 
 function video() {
   return (
-    <div className='bg-gray-100'>
-    <MainDivzoonHeader/>
+    <div className='bg-gray-100 dark:bg-[#0d151d]'>
+      <MainDivzoonHeader />
 
       <NavBar
         className='sticky top-0 overflow-hidden'
         video='border-b-4 border-red-500'
+        dark='true'
       />
-      <NavnonavsBar />
+      <NavnonavsBar dark='true' />
       <NavNavbarMobol
         className='sticky top-0 overflow-hidden'
         video='border-b-4 border-red-500'
+        dark='true'
       />
       <MainOtherPages />
     </div>
