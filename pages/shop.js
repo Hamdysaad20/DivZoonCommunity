@@ -2,8 +2,9 @@ import NavBar from "../components/nav/NavBar";
 import NavNavbarMobol from "../components/nav/NavNavbarMobol";
 import NavnonavsBar from "../components/nav/NavnonavsBar";
 import MainDivzoonHeader from "../components/MainDivzoonHeader";
+import MainForShop from "../components/MainForShop";
 
-function videos() {
+function shop() {
   return (
     <div className='bg-gray-100 dark:bg-[#0d151d]'>
       <MainDivzoonHeader />
@@ -18,8 +19,9 @@ function videos() {
         shop='border-b-4 border-red-500'
         dark='true'
       />
+      <MainForShop className='blur-xl h-screen   ' />
     </div>
   );
 }
 
-export default videos;
+export default shop;

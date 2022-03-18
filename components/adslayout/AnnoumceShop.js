@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function AnnoumceHome() {
+function AnnoumceShop() {
   function AnnoumceHomevisability() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -13,7 +13,7 @@ function AnnoumceHome() {
   return (
     <div
       id='myDIV'
-      className='h-48 -mb-8 rounded-lg w-full dark:bg-slate-900 bg-gray-600/20 relative '>
+      className='h-48 lg:h-72 -mb-8 rounded-lg w-full dark:bg-slate-900 bg-gray-600/20 relative '>
       <div className='absolute right-3 top-2'>
         <Image
           onClick={AnnoumceHomevisability}
@@ -28,4 +28,4 @@ function AnnoumceHome() {
   );
 }
 
-export default AnnoumceHome;
+export default AnnoumceShop;
