@@ -73,7 +73,7 @@ function MainForShop(props) {
                       className='h-80 sm:mb-9 md:mb-12 pb-2  text-center w-48 md:w-60  '>
                       <div className=' bg-gray-700 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         <Image
-                          className='h-80 hover:shadow-md overflow-hidden hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-t-[0.5rem] w-48 md:w-60  bg-red-500'
+                          className='h-80 hover:shadow-md overflow-hidden hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-t-[0.5rem] w-48 md:w-60  bg-gary-300'
                           src={item.prodImg}
                           alt='product'
                           height='282'
