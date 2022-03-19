@@ -9,7 +9,7 @@ function NavBar(props) {
 
   return (
     <div className='invisible sm:visible fixed w-full z-60'>
-      <header className=' text-center overflow-hidden lg:max-w-9xl sticky top-0 z-50 grid grid-cols-3 dark:bg-gray-900/90 backdrop-blur-md bg-white shadow-sm pt-2'>
+      <header className=' text-center overflow-hidden lg:max-w-9xl sticky top-0 z-50 grid grid-cols-3 dark:bg-gray-900/95 backdrop-blur-md bg-white shadow-sm pt-2'>
         <div
           style={{ color: "red", fontWeight: 800 }}
           className=' text-left md:text-center ml-3 sm:ml-7 text-2xl md:text-3xl py-auto md:pt-0 pt-1'></div>
