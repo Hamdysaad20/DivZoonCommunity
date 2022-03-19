@@ -61,34 +61,43 @@ function MainForShop(props) {
           <div className='mt-3  sm:mt-16'>
             <AnnoumceShop />
           </div>
-          <div className='h-screen  mt-16'>
+          <div className='h-screen   mt-16'>
             {/* here should be the items */}
-            <div className='text-gray-900 pl-4 justify-center gap-3 grid lg:grid-cols-3 grid-cols-2 md:grid-cols-2  xl:grid-cols-4  dark:bg-[#16222e] bg-gray-200 rounded-[1rem] md:rounded-[1.5rem]'>
-              {productsItems
-                .sort((a, b) => 0.5 - Math.random())
-                .map((item, i) => (
-                  <div
-                    key={i}
-                    className='h-80 mb-4 pb-2 relative rounded-[2.5rem] w-48 md:w-60 md:rounded-[2rem] '>
-                    <div className=' pt-6'>
-                      <Image
-                        className='h-80 hover:shadow-md overflow-hidden hover:scale-110   absolute duration-500 rounded-[2.5rem] w-48 md:w-60 md:rounded-[2rem] bg-red-500'
-                        src={item.prodImg}
-                        alt='product'
-                        height='282'
-                        width='242'
-                      />{" "}
-                      <div className='flex gap-4  font-bold justify-center '>
-                        <h1 className='dark:text-gray-400 font-serif'>
-                          {item.prodName.length > 12
-                            ? ".." + item.prodName.substr(0, 15)
-                            : item.prodName}
-                        </h1>
-                        <h1 className='dark:text-gray-200 font-bold'> 12 $</h1>
+            <div className='text-gray-900  relative  grid grid-cols-1     dark:bg-[#16222e] bg-gray-200 rounded-[1rem] md:rounded-[1.5rem]'>
+              <div className=' justify-center  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-1 md:grid-cols-2  2xl:grid-cols-4  mx-auto'>
+                {productsItems
+                  .sort((a, b) => 0.5 - Math.random())
+                  .map((item, i) => (
+                    <div
+                      key={i}
+                      className='h-80 sm:mb-9 md:mb-12 pb-2  text-center w-48 md:w-60  '>
+                      <div className=' bg-gray-700 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
+                        <Image
+                          className='h-80 hover:shadow-md overflow-hidden hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-t-[0.5rem] w-48 md:w-60  bg-red-500'
+                          src={item.prodImg}
+                          alt='product'
+                          height='282'
+                          width='242'
+                        />{" "}
+                        <div className='flex gap-4  font-bold justify-center '>
+                          <h1 className='dark:text-gray-400 font-serif'>
+                            {item.prodName.length > 12
+                              ? ".." + item.prodName.substr(0, 15)
+                              : item.prodName}
+                          </h1>
+                          <h1 className='dark:text-gray-200 font-bold'>
+                            {" "}
+                            12 $
+                          </h1>
+                        </div>
+                        <button className='w-28 flex mx-auto justify-center font-bold text-gray-200 rounded-sm mt-1 bg-red-500'>
+                          <h1 className='px-1 pb-1 font-extrabold'> + </h1>
+                          <h1>اضافة للسلة</h1>
+                        </button>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+              </div>
             </div>
           </div>
         </div>
