@@ -22,35 +22,35 @@ function MainForShop(props) {
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg1.jpg",
+      prodImg: "/products/productimg5.jpg",
     },
     {
       prodName: "قميص  حجم متوسط css",
-      prodImg: "/products/productimg2.jpg",
+      prodImg: "/products/productimg6.jpg",
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg3.jpg",
+      prodImg: "/products/productimg7.jpg",
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg4.jpg",
+      prodImg: "/products/productimg8.jpg",
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg1.jpg",
+      prodImg: "/products/productimg9.jpg",
     },
     {
       prodName: "قميص  حجم متوسط css",
-      prodImg: "/products/productimg2.jpg",
+      prodImg: "/products/productimg10.jpg",
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg3.jpg",
+      prodImg: "/products/productimg11.jpg",
     },
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg4.jpg",
+      prodImg: "/products/productimg12.jpg",
     },
   ];
 
