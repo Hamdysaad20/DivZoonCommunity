@@ -82,8 +82,8 @@ function MainForShop(props) {
                   .map((item, i) => (
                     <div
                       key={i}
-                      className='h-80 hover:shadow-lg  md:mb-1 pb-2   text-center w-48 md:w-60  '>
-                      <div className=' select-none cursor-pointer overflow-hidden hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
+                      className='h-80  md:mb-1 pb-2   text-center w-48 md:w-60  '>
+                      <div className='hover:shadow-lg  select-none cursor-pointer overflow-hidden hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         <Image
                           className='h-80   overflow-hidden hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-t-[0.5rem] w-48 md:w-60  bg-gary-300'
                           src={item.prodImg}
