@@ -6,7 +6,7 @@ import MainDivzoonHeader from "../components/MainDivzoonHeader";
 
 function video() {
   return (
-    <div className='bg-gray-100 dark:bg-[#0d151d]'>
+    <div className='bg-gray-100 fixed w-full dark:bg-[#0d151d]'>
       <MainDivzoonHeader />
 
       <NavBar

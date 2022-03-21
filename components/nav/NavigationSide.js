@@ -2,9 +2,9 @@ import Link from "next/link";
 
 function navigationSide(props) {
   return (
-    <div className='grid select-none grid-rows-3 max-w-[500px]'>
+    <div className='grid select-none grid-rows-3  max-w-[500px]'>
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20 text-right justify-end  p-2  rounded-md  dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2  text-right justify-end  p-2  rounded-md  dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
           <div className=' mr-2 text-lg dark:text-gray-300 font-semibold'>
             {" "}
             هات قهوتك
@@ -24,7 +24,7 @@ function navigationSide(props) {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2  md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md dark:hover:bg-gray-700  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2  p-2 text-right justify-end  rounded-md dark:hover:bg-gray-700  hover:bg-gray-200 duration-300'>
           <div className='text-left dark:text-gray-300 mr-2 text-lg font-semibold'>
             المقالات
           </div>
@@ -43,7 +43,7 @@ function navigationSide(props) {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2  md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2 text-right justify-end  rounded-md   dark:hover:bg-gray-700  hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2    p-2 text-right justify-end  rounded-md   dark:hover:bg-gray-700  hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2  dark:text-gray-300 text-lg font-semibold'>
             الكورسات
           </div>
@@ -62,7 +62,7 @@ function navigationSide(props) {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md   dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2   p-2   text-right justify-end rounded-md   dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 dark:text-gray-300 text-lg font-semibold'>
             المتجر
           </div>
@@ -81,7 +81,7 @@ function navigationSide(props) {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer  flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md    dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer  flex flex-cols-2  p-2   text-right justify-end rounded-md    dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 dark:text-gray-300 text-lg font-semibold'>
             المحفوظات
           </div>
@@ -100,7 +100,7 @@ function navigationSide(props) {
       </Link>
 
       <Link href='/' passHref>
-        <div className='cursor-pointer flex flex-cols-2 md:mr-4 lg:mr-4 xl:mr-12 2xl:mr-20  p-2   text-right justify-end rounded-md   dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
+        <div className='cursor-pointer flex flex-cols-2   p-2   text-right justify-end rounded-md   dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
           <div className='text-left mr-2 dark:text-gray-300 text-lg font-semibold'>
             ادعمنا
           </div>

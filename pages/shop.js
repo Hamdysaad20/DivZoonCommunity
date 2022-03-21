@@ -6,7 +6,7 @@ import MainForShop from "../components/MainForShop";
 
 function shop() {
   return (
-    <div className='bg-gray-100 dark:bg-[#0d151d]'>
+    <div className='bg-gray-100 fixed w-full h-screen  dark:bg-[#0d151d]'>
       <MainDivzoonHeader />
       <NavBar
         className='sticky top-0 overflow-hidden'
@@ -19,7 +19,7 @@ function shop() {
         shop='border-b-4 border-red-500'
         dark='true'
       />
-      <MainForShop className='blur-xl h-screen   ' />
+      <MainForShop className='blur-xl  ' />
     </div>
   );
 }

@@ -55,7 +55,7 @@ function MainForShop(props) {
   ];
 
   return (
-    <div className='fullscreen overflow-y-scroll  mx-auto  justify-center text-center '>
+    <div className='fullscreen h-full  scroll-m-4  mx-auto  justify-center text-center '>
       <div className='  lg:max-w-9xl h-screen  text-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
         <div className='  lg:col-span-3  mx-4 sm:mx-0 col-span-2 scroll-m-4 overflow-scroll text-white px-2 h-full '>
           <div className='mt-3  sm:mt-16'>
@@ -64,7 +64,7 @@ function MainForShop(props) {
           <div className='h-screen   mt-16'>
             {/* here should be the items */}
             <div className='text-gray-900  relative  grid grid-cols-1     rounded-[1rem] md:rounded-[1.5rem]'>
-              <div className=' justify-center select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-1 md:grid-cols-2  2xl:grid-cols-4  mx-auto'>
+              <div className='pb-44 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-1 md:grid-cols-2  2xl:grid-cols-4 '>
                 {productsItems
                   .sort((a, b) => 0.5 - Math.random())
                   .map((item, i) => (
@@ -97,6 +97,13 @@ function MainForShop(props) {
                       </div>
                     </div>
                   ))}
+                <div className='absolute bottom-20 right-[20%] left-[20%]'>
+                  <div className='dark:bg-slate-700 bg-gray-200 hover:bg-gray-300 duration-700 relative mx-auto  justify-center  my-6 py-1 rounded-full text-center  px-2'>
+                    <h1 className='dark:text-gray-200 text-gray-600  font-bold'>
+                      منتجات اخري في الطريق قريبا 😊
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

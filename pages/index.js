@@ -5,10 +5,10 @@ import NavnonavsBar from "../components/nav/NavnonavsBar";
 import MainDivzoonHeader from "../components/MainDivzoonHeader";
 export default function Home() {
   return (
-    <div className='bg-gray-100 dark:bg-[#0d151d] h-full  '>
+    <div className='bg-gray-100  fixed w-full dark:bg-[#0d151d] h-full  '>
       <MainDivzoonHeader />
       <NavBar
-        className='sticky top-0  overflow-hidden'
+        className='sticky    overflow-hidden'
         home='border-b-4 border-red-500'
         dark='true'
       />
