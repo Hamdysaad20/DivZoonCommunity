@@ -7,50 +7,62 @@ function MainForShop(props) {
     {
       prodName: "قميص بايثون حجم متوسط",
       prodImg: "/products/productimg1.jpg",
+      price: "۱۹۹,۹۹",
     },
     {
       prodName: "قميص  حجم متوسط css",
       prodImg: "/products/productimg2.jpg",
+      price: "۱۸۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "قميص Ai حجم متوسط",
       prodImg: "/products/productimg3.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "هودي github  حجم متوسط",
       prodImg: "/products/productimg4.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "تيشيرت stackoverflow حجم متوسط",
       prodImg: "/products/productimg5.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص  حجم متوسط css",
+      prodName: "تيشيرت breaking builds حجم متوسط",
       prodImg: "/products/productimg6.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "I Hate CSSتيشيرت  حجم متوسط",
       prodImg: "/products/productimg7.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "HTML تيشيرت  حجم متوسط",
       prodImg: "/products/productimg8.jpg",
+      price: "۳۳۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "dice قميص  حجم متوسط",
       prodImg: "/products/productimg9.jpg",
+      price: "۱۳۹,۹۹",
     },
     {
-      prodName: "قميص  حجم متوسط css",
+      prodName: "debug قميص  حجم متوسط debug",
       prodImg: "/products/productimg10.jpg",
+      price: "۳۱۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "Flutter  قميص  حجم متوسط",
       prodImg: "/products/productimg11.jpg",
+      price: "۳۱۹,۹۹",
     },
     {
-      prodName: "قميص بايثون حجم متوسط",
+      prodName: "LeetCode قميص  حجم متوسط",
       prodImg: "/products/productimg12.jpg",
+      price: "۱۳۹,۹۹",
     },
   ];
 
@@ -85,9 +97,11 @@ function MainForShop(props) {
                               ? "..." + item.prodName.substr(0, 15)
                               : item.prodName}
                           </h1>
-                          <h1 className='dark:text-gray-200 font-bold'>
-                            {" "}
-                            12 $
+                          <h1 className=' flex dark:text-gray-200 font-bold'>
+                            {item.price}
+                            <h1 className='opacity-80 text-xs pt-1 px-1'>
+                              ج.م
+                            </h1>
                           </h1>
                         </div>
                         <button className='w-28 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
