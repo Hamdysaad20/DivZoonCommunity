@@ -76,7 +76,17 @@ function MainForShop(props) {
           <div className='h-screen   mt-16'>
             {/* here should be the items */}
             <div className='text-gray-900  relative  grid grid-cols-1     rounded-[1rem] md:rounded-[1.5rem]'>
-              <div className='pb-44 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-1 md:grid-cols-2  2xl:grid-cols-4 '>
+              <h1
+                style={{
+                  fontFamily: "BalooBhaijaan2",
+                  fontWeight: "600",
+                  textShadow:
+                    "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
+                }}
+                className='text-gray-900 dark:text-gray-300  text-2xl'>
+                انضم لمجتمع المبرمجين العرب الان
+              </h1>
+              <div className='pb-60 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-1 md:grid-cols-2  2xl:grid-cols-4 '>
                 {productsItems
                   .sort((a, b) => 0.5 - Math.random())
                   .map((item, i) => (
@@ -90,6 +100,8 @@ function MainForShop(props) {
                           alt='product'
                           height='282'
                           width='282'
+                          placeholder='blur'
+                          blurDataURL='data:...'
                         />{" "}
                         <div className='flex gap-4  font-bold justify-center '>
                           <h1 className='dark:text-gray-400 font-serif'>
@@ -111,7 +123,7 @@ function MainForShop(props) {
                       </div>
                     </div>
                   ))}
-                <div className='absolute bottom-20 right-[20%] left-[20%]'>
+                <div className='absolute bottom-28 right-[20%] left-[20%]'>
                   <div className='dark:bg-slate-700 bg-gray-200 hover:bg-gray-300 duration-700 relative mx-auto  justify-center  my-6 py-1 rounded-full text-center  px-2'>
                     <h1 className='dark:text-gray-200 text-gray-600  font-bold'>
                       منتجات اخري في الطريق قريبا 😊

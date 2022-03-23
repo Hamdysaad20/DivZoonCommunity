@@ -1,13 +1,13 @@
 html {
   overflow: scroll;
   overflow-x: hidden;
+  font-family: "BalooBhaijaan2";
 }
 
-  ::-webkit-scrollbar {
-    width:0 ; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
-  }
-
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -20,7 +20,6 @@ html {
 }
 .fullscreen {
   max-width: 100rem /* 1280px */;
-
 }
 .darkmode {
   background-image: url(../public/bg.jpg);
@@ -28,32 +27,40 @@ html {
 
 @media screen and (max-width: 800px) {
   .sidehidmm {
-    display: none;   
+    display: none;
   }
 }
 @media screen and (min-width: 1100px) {
   .sidpadding {
-    margin:0;  
+    margin: 0;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@font-face {
+  font-family: "BalooBhaijaan2";
+  src: url("/fonts/EBGaramond/EBGaramond-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BalooBhaijaan2";
+  src: url("/fonts/static/BalooBhaijaan2-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BalooBhaijaan2";
+  src: url("/fonts/static/BalooBhaijaan2-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BalooBhaijaan2";
+  src: url("/fonts/static/BalooBhaijaan2-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
