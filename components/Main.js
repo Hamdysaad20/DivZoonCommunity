@@ -2,11 +2,12 @@ import AnnoumceHome from "./adslayout/AnnoumceHome";
 import BlogPost from "./bloglayout/BlogPost";
 import PostsNews from "./nav/PostsNews";
 import Sidenav from "./nav/Sidenav";
-import VideoPost from "./videoscomponents/VideoPost";
+import Loading from "./assets/loading";
 
 function Main() {
+  var datafeatching = true;
   return (
-    <div className='fullscreen overflow-y-scroll  mx-auto  justify-center text-center '>
+    <div className='fullscreen overflow-y-scroll scroll-mb-16  mx-auto  justify-center text-center '>
       <div className='  lg:max-w-9xl h-screen  text-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
         <div className=' mt-16 hidden lg:block h-screen   text-center  overflow-hidden '>
           <PostsNews />
@@ -16,36 +17,51 @@ function Main() {
           <div className='mt-3  sm:mt-16'>
             <AnnoumceHome />
           </div>
-          <div className='h-screen  mt-16'>
+          <div className='h-screen   mt-16'>
             <BlogPost
               userImage='/ad300x250.png'
               UserName='حمدي سعد'
               PostDate='2'
               PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
             />
-            <div className='py-9 sm:py-6'></div>
+            <div className='py-6 sm:py-6'></div>
             <BlogPost
               userImage='/ad300x250.png'
               UserName='حمدي سعد'
               PostDate='2'
               PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
             />
-            <VideoPost
-              UserName='حمدي سعد'
-              PostDate='2'
-              PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
-            />
+            <div className='py-6 sm:py-6'></div>
             <BlogPost
               userImage='/ad300x250.png'
               UserName='حمدي سعد'
               PostDate='2'
               PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
-            />
-            <VideoPost
+            />{" "}
+            <div className='py-6 sm:py-6'></div>
+            <BlogPost
+              userImage='/ad300x250.png'
               UserName='حمدي سعد'
               PostDate='2'
               PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
-            />
+            />{" "}
+            <div className='py-6 sm:py-6'></div>
+            <BlogPost
+              userImage='/ad300x250.png'
+              UserName='حمدي سعد'
+              PostDate='2'
+              PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
+            />{" "}
+            <div className='py-6 sm:py-6'></div>
+            <BlogPost
+              userImage='/ad300x250.png'
+              UserName='حمدي سعد'
+              PostDate='2'
+              PostTitle='بلتبمنلتبيملتمينتيبمكت متبيلتم منتب لتيبنملابكمل نمات نا بعلبعلهخب'
+            />{" "}
+            <div className='py-6 sm:py-6'></div>
+            {datafeatching == false ? "" : <Loading />}
+            <div className='py-6 sm:py-6'></div>
           </div>
         </div>
         <div className='sidehidmm mt-16 sm:block hidden   h-screen overflow-hidden'>

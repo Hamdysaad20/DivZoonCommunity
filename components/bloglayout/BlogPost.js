@@ -17,6 +17,8 @@ function BlogPost(props) {
           src='https://res.cloudinary.com/divzoon2022/image/upload/v1641347288/cld-sample.jpg'
           height='80'
           width='80'
+          placeholder='blur'
+          blurDataURL='data:...'
         />
       </div>
       <div className='bg-gray-50  dark:bg-[#16222e] absolute w-full  rounded-b-md bottom-0 z-20 h-[250px] '>
@@ -36,6 +38,8 @@ function BlogPost(props) {
               src={props.userImage}
               height='80'
               width='80'
+              placeholder='blur'
+              blurDataURL='data:...'
             />
           </div>
         </div>
