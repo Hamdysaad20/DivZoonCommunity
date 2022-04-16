@@ -135,7 +135,7 @@ function MainForShop(props) {
                       </div>
                     </div>
                   ))}
-                <div className='absolute bottom-28 right-[20%] left-[20%]'>
+                <div className='absolute bottom-36 sm:bottom-28 right-[20%] left-[20%]'>
                   <div className='dark:bg-slate-700 bg-gray-200 hover:bg-gray-300 duration-700 relative mx-auto  justify-center  my-6 py-1 rounded-full text-center  px-2'>
                     <h1 className='dark:text-gray-200 text-gray-600  font-bold'>
                       منتجات اخري في الطريق قريبا 😊
