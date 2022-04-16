@@ -98,7 +98,7 @@ function MainCoffee() {
                   .map((item, i) => (
                     <div
                       key={i}
-                      className='h-80  md:mb-1 pb-2   text-center sm:w-48 md:w-60  '>
+                      className='sm:h-80   md:mb-1 pb-2   text-center sm:w-48 md:w-60  '>
                       <div className='hover:shadow-lg relative  select-none cursor-pointer overflow-hidden   hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         {item.offerPricePercentage == null ? (
                           ""
@@ -108,7 +108,7 @@ function MainCoffee() {
                           </div>
                         )}
                         <Image
-                          className='h-80   overflow-hidden scale-90  hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-[0.5rem] w-48 md:w-60  bg-gary-300'
+                          className=' h-80   overflow-hidden scale-90  hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-[0.5rem] w-48 md:w-60  bg-gary-300'
                           src={item.prodImg}
                           alt='product'
                           height='282'
@@ -119,22 +119,26 @@ function MainCoffee() {
                         <div className='flex gap-4  font-bold text-right justify-center '>
                           <h1 className='dark:text-gray-400 text-right right-5 bottom-12 justify-right font-serif'>
                             {item.prodName.length > 15
-                              ? "..." + item.prodName.substr(0, 15)
+                              ? "..." + item.prodName.substr(0, 13)
                               : item.prodName}
                           </h1>
                           <h1 className=' flex dark:text-gray-200 font-bold'></h1>
                         </div>
                         <div className=' flex justify-center'>
-                          <div className='relative bg-gray-900/30 rounded-md h-8 w-[70%] sm:w-[60%] justify-center z-10 '>
-                            <div className='mt-1 mr-2 pr-2 text-gray-300 text-center mx-auto justify-center'>
+                          <div className='relative bg-gray-900/30 rounded-md h-8 w-[80%] sm:w-[70%] justify-center z-10 '>
+                            <div className='mt-1 flex mr-2 pr-2 text-gray-300 text-center mx-auto justify-center'>
                               <h1
                                 style={{
                                   fontFamily: "BalooBhaijaan2",
                                   fontWeight: "600",
                                   textShadow:
                                     "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
-                                }}>
+                                }}
+                                className='dark:text-gray-400 text-gray-900 '>
                                 {item.price}
+                              </h1>
+                              <h1 className='dark:text-gray-400 text-gray-900  text-xs'>
+                                ج.م
                               </h1>
                             </div>
                             <button className=' flex h-8 w-8 text-center  z-20 absolute right-0 top-0  justify-center font-bold active:scale-90 duration-300 text-gray-200 rounded-md  bg-red-500'>
