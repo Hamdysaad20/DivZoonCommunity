@@ -125,7 +125,7 @@ function MainCoffee() {
                           <h1 className=' flex dark:text-gray-200 font-bold'></h1>
                         </div>
                         <div className=' flex justify-center'>
-                          <div className='relative bg-gray-900/30 rounded-md h-8 w-[60%] justify-center z-10 '>
+                          <div className='relative bg-gray-900/30 rounded-md h-8 w-[70%] sm:w-[60%] justify-center z-10 '>
                             <div className='mt-1 mr-2 pr-2 text-gray-300 text-center mx-auto justify-center'>
                               <h1
                                 style={{
