@@ -2,7 +2,7 @@ import React from "react";
 import AnnoumceShop from "./adslayout/AnnoumceShop";
 import Sidenav from "./nav/Sidenav";
 import Image from "next/image";
-function MainForShop(props) {
+function MainForShop() {
   const productsItems = [
     {
       prodName: "قميص بايثون حجم متوسط",
@@ -93,7 +93,7 @@ function MainForShop(props) {
               </h1>
               <div className='pb-60 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-2 gap-3 md:grid-cols-2  2xl:grid-cols-4 '>
                 {productsItems
-                  .sort((a, b) => 0.5 - Math.random())
+                  .sort(() => 0.5 - Math.random())
                   .map((item, i) => (
                     <div
                       key={i}

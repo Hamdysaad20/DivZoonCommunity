@@ -1,70 +1,73 @@
 import React from "react";
 import Image from "next/image";
-function MainForShop(props) {
+import Sidenav from "../nav/Sidenav";
+import AnnoumceShop from "../adslayout/AnnoumceShop";
+
+function MainCoffee() {
   const productsItems = [
     {
       prodName: "قميص بايثون حجم متوسط",
-      prodImg: "/products/productimg1.jpg",
+      prodImg: "/Coffe/1.jpg",
       price: "۱۹۹,۹۹",
       offerPricePercentage: "-10%",
     },
     {
       prodName: "قميص  حجم متوسط css",
-      prodImg: "/products/productimg2.jpg",
+      prodImg: "/Coffe/2.jpg.png",
       price: "۱۸۹,۹۹",
       offerPricePercentage: "-50%",
     },
     {
       prodName: "قميص Ai حجم متوسط",
-      prodImg: "/products/productimg3.jpg",
+      prodImg: "/Coffe/3.jpg.png",
       price: "۳۳۹,۹۹",
       offerPricePercentage: "-10%",
     },
     {
       prodName: "هودي github  حجم متوسط",
-      prodImg: "/products/productimg4.jpg",
+      prodImg: "/Coffe/4.jpg.png",
       price: "۳۳۹,۹۹",
       offerPricePercentage: "-40%",
     },
     {
       prodName: "تيشيرت stackoverflow حجم متوسط",
-      prodImg: "/products/productimg5.jpg",
+      prodImg: "/Coffe/5.jpg.png",
       price: "۳۳۹,۹۹",
       offerPricePercentage: "-10%",
     },
     {
       prodName: "تيشيرت breaking builds حجم متوسط",
-      prodImg: "/products/productimg6.jpg",
+      prodImg: "/Coffe/6.jpg.png",
       price: "۳۳۹,۹۹",
     },
     {
       prodName: "I Hate CSSتيشيرت  حجم متوسط",
-      prodImg: "/products/productimg7.jpg",
+      prodImg: "/Coffe/7.jpg.png",
       price: "۳۳۹,۹۹",
     },
     {
       prodName: "HTML تيشيرت  حجم متوسط",
-      prodImg: "/products/productimg8.jpg",
+      prodImg: "/Coffe/8.jpg.png",
       price: "۳۳۹,۹۹",
     },
     {
       prodName: "dice قميص  حجم متوسط",
-      prodImg: "/products/productimg9.jpg",
+      prodImg: "/Coffe/9.jpg.png",
       price: "۱۳۹,۹۹",
     },
     {
       prodName: "debug قميص  حجم متوسط debug",
-      prodImg: "/products/productimg10.jpg",
+      prodImg: "/Coffe/10.jpg.png",
       price: "۳۱۹,۹۹",
     },
     {
       prodName: "Flutter  قميص  حجم متوسط",
-      prodImg: "/products/productimg11.jpg",
+      prodImg: "/Coffe/11.jpg.png",
       price: "۳۱۹,۹۹",
     },
     {
       prodName: "LeetCode قميص  حجم متوسط",
-      prodImg: "/products/productimg12.jpg",
+      prodImg: "/Coffe/12.jpg.png",
       price: "۱۳۹,۹۹",
     },
   ];
@@ -73,7 +76,9 @@ function MainForShop(props) {
     <div className='fullscreen h-full  scroll-m-4  mx-auto  justify-center text-center '>
       <div className='  lg:max-w-9xl h-screen  text-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
         <div className='  lg:col-span-3  mx-4 sm:mx-0 col-span-2 scroll-m-4 overflow-scroll text-white px-2 h-full '>
-          <div className='mt-3  sm:mt-16'></div>
+          <div className='mt-3  sm:mt-16'>
+            <AnnoumceShop />
+          </div>
           <div className='h-screen   mt-16'>
             {/* here should be the items */}
             <div className='text-gray-900  relative  grid grid-cols-1     rounded-[1rem] md:rounded-[1.5rem]'>
@@ -89,11 +94,11 @@ function MainForShop(props) {
               </h1>
               <div className='pb-60 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-2 gap-3 md:grid-cols-2  2xl:grid-cols-4 '>
                 {productsItems
-                  .sort((a, b) => 0.5 - Math.random())
+                  .sort(() => 0.5 - Math.random())
                   .map((item, i) => (
                     <div
                       key={i}
-                      className='h-80  md:mb-1 pb-2   text-center w-48 md:w-60  '>
+                      className='h-80  md:mb-1 pb-2   text-center sm:w-48 md:w-60  '>
                       <div className='hover:shadow-lg relative  select-none cursor-pointer overflow-hidden   hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         {item.offerPricePercentage == null ? (
                           ""
@@ -185,7 +190,7 @@ function MainForShop(props) {
                       </div>
                     </div>
                   ))}
-                <div className='absolute bottom-28 right-[20%] left-[20%]'>
+                <div className='absolute bottom-36 sm:bottom-28 right-[20%] left-[20%]'>
                   <div className='dark:bg-slate-700 bg-gray-200 hover:bg-gray-300 duration-700 relative mx-auto  justify-center  my-6 py-1 rounded-full text-center  px-2'>
                     <h1 className='dark:text-gray-200 text-gray-600  font-bold'>
                       منتجات اخري في الطريق قريبا 😊
@@ -196,10 +201,12 @@ function MainForShop(props) {
             </div>
           </div>
         </div>
-        <div className='sidehidmm mt-16 sm:block hidden   h-screen overflow-hidden'></div>
+        <div className='sidehidmm mt-16 sm:block hidden   h-screen overflow-hidden'>
+          <Sidenav className=' h-screen top-2' />
+        </div>
       </div>
     </div>
   );
 }
 
-export default MainForShop;
+export default MainCoffee;

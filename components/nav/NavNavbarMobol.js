@@ -102,25 +102,25 @@ function NavNavbarMobol(props) {
             transition: "ease-in",
           }}
           className=' z-70 mt-1 sm:hidden absolute pb-3 rounded-b-md w-11/12 right-1 dark:bg-gray-900/95 backdrop-blur-md mr-2 ml-3'>
-          <div className='sm:hidden cursor-pointer  noselect  flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44 text-right justify-end  p-2  rounded-md   dark:hover:bg-gray-700 hover:bg-gray-100 duration-300'>
-            <Link href='/getCoffe' passHref>
+          <Link href='/getCoffe' passHref>
+            <div className='sm:hidden cursor-pointer  noselect  flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44 text-right justify-end  p-2  rounded-md   dark:hover:bg-gray-700 hover:bg-gray-100 duration-300'>
               <div className='sm:hidden  mr-2 text-lg dark:text-gray-300 font-semibold'>
                 هات قهوتك
               </div>
-            </Link>
-            <div className='sm:hidden  right-0 '>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                viewBox='0 0 24 24'
-                width='24'
-                height='24'
-                fill={props.dark ? "gray" : "black"}>
-                <path fill='none' d='M0 0h24v24H0z' />
-                <path d='M16 13V5H6v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2zM5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1zm13 2v3h2V5h-2zM2 19h18v2H2v-2z' />
-              </svg>
-            </div>
-          </div>
 
+              <div className='sm:hidden  right-0 '>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  viewBox='0 0 24 24'
+                  width='24'
+                  height='24'
+                  fill={props.dark ? "gray" : "black"}>
+                  <path fill='none' d='M0 0h24v24H0z' />
+                  <path d='M16 13V5H6v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2zM5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1zm13 2v3h2V5h-2zM2 19h18v2H2v-2z' />
+                </svg>
+              </div>
+            </div>
+          </Link>
           <div className='sm:hidden cursor-pointer  noselect  flex flex-cols-2  md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44  p-2 text-right justify-end  rounded-md dark:hover:bg-gray-700 hover:bg-gray-100 duration-300'>
             <div className='text-left mr-2 text-lg dark:text-gray-300 font-semibold'>
               المقالات
