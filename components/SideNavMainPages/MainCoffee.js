@@ -89,7 +89,7 @@ function MainCoffee() {
                   textShadow:
                     "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
                 }}
-                className='text-gray-900 dark:text-gray-300  text-2xl'>
+                className='text-gray-900 dark:text-gray-300  text-xl'>
                 ☕😉 var coffee = new coffee();
               </h1>
               <div className='pb-60 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-2 gap-3 md:grid-cols-2  2xl:grid-cols-4 '>
