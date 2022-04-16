@@ -3,7 +3,7 @@ import Link from "next/link";
 function navigationSide(props) {
   return (
     <div className='grid select-none grid-rows-3  max-w-[500px]'>
-      <Link href='/' passHref>
+      <Link href='/getCoffe' passHref>
         <div className='cursor-pointer  flex flex-cols-2  text-right justify-end  p-2  rounded-md  dark:hover:bg-gray-700 hover:bg-gray-200 duration-300'>
           <div className=' mr-2 text-lg dark:text-gray-300 font-semibold'>
             {" "}

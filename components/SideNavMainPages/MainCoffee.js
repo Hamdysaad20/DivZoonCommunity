@@ -1,6 +1,4 @@
 import React from "react";
-import AnnoumceShop from "./adslayout/AnnoumceShop";
-import Sidenav from "./nav/Sidenav";
 import Image from "next/image";
 function MainForShop(props) {
   const productsItems = [
@@ -75,9 +73,7 @@ function MainForShop(props) {
     <div className='fullscreen h-full  scroll-m-4  mx-auto  justify-center text-center '>
       <div className='  lg:max-w-9xl h-screen  text-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
         <div className='  lg:col-span-3  mx-4 sm:mx-0 col-span-2 scroll-m-4 overflow-scroll text-white px-2 h-full '>
-          <div className='mt-3  sm:mt-16'>
-            <AnnoumceShop />
-          </div>
+          <div className='mt-3  sm:mt-16'></div>
           <div className='h-screen   mt-16'>
             {/* here should be the items */}
             <div className='text-gray-900  relative  grid grid-cols-1     rounded-[1rem] md:rounded-[1.5rem]'>
@@ -146,9 +142,7 @@ function MainForShop(props) {
             </div>
           </div>
         </div>
-        <div className='sidehidmm mt-16 sm:block hidden   h-screen overflow-hidden'>
-          <Sidenav className=' h-screen top-2' />
-        </div>
+        <div className='sidehidmm mt-16 sm:block hidden   h-screen overflow-hidden'></div>
       </div>
     </div>
   );

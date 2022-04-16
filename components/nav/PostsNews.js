@@ -7,7 +7,7 @@ function PostsNews(props) {
       <div className='w-full relative dark:bg-[#16222e] bg-white overflow-hidden  h-40 rounded-lg  mx-2'>
         {" "}
         <Image
-          className='hover:scale-110  duration-500 w-full bg-gary-300'
+          className='hover:scale-110 cursor-pointer select-none  duration-500 w-full bg-gary-300'
           src='/w.png'
           alt='product'
           height='282'
@@ -27,7 +27,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-xl  text-right '>
+            className='text-xl   cursor-pointer select-none  hover:underline text-right '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
@@ -43,7 +43,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-lg text-right dark:text-gray-400 '>
+            className='text-lg cursor-pointer select-none  hover:underline text-right dark:text-gray-400 '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
@@ -59,7 +59,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-lg text-right dark:text-gray-400 '>
+            className='text-lg cursor-pointer select-none  hover:underline text-right dark:text-gray-400 '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
@@ -75,7 +75,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-lg text-right dark:text-gray-400 '>
+            className='text-lg cursor-pointer select-none  hover:underline text-right dark:text-gray-400 '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
@@ -91,7 +91,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-lg text-right dark:text-gray-400 '>
+            className='text-lg cursor-pointer select-none  hover:underline text-right dark:text-gray-400 '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
@@ -107,7 +107,7 @@ function PostsNews(props) {
                 "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
               //67 char
             }}
-            className='text-lg text-right   dark:text-gray-400 '>
+            className='text-lg text-right cursor-pointer select-none  hover:underline   dark:text-gray-400 '>
             عنوان المقالة يوجد هنا والمساحة كافية لسطرين عنوان المقالة يوجد هنا
             والمساحة كافية لسطرين
           </h1>{" "}
