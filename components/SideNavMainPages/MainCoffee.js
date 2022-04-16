@@ -85,7 +85,7 @@ function MainForShop(props) {
                     "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
                 }}
                 className='text-gray-900 dark:text-gray-300  text-2xl'>
-                انضم لمجتمع المبرمجين العرب الان
+                ☕😉 var coffee = new coffee();
               </h1>
               <div className='pb-60 mx-auto justify-center  select-none  md:gap-2 lg:gap-2 xl:gap-4 grid lg:grid-cols-3  grid-cols-2 gap-3 md:grid-cols-2  2xl:grid-cols-4 '>
                 {productsItems
@@ -94,7 +94,7 @@ function MainForShop(props) {
                     <div
                       key={i}
                       className='h-80  md:mb-1 pb-2   text-center w-48 md:w-60  '>
-                      <div className='hover:shadow-lg relative  select-none cursor-pointer overflow-hidden hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
+                      <div className='hover:shadow-lg relative  select-none cursor-pointer overflow-hidden   hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         {item.offerPricePercentage == null ? (
                           ""
                         ) : (
@@ -103,7 +103,7 @@ function MainForShop(props) {
                           </div>
                         )}
                         <Image
-                          className='h-80   overflow-hidden hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-t-[0.5rem] w-48 md:w-60  bg-gary-300'
+                          className='h-80   overflow-hidden scale-90  hover:scale-110 hover:rounded-[0.5rem] active:rounded-[0.5rem]   absolute duration-500 rounded-[0.5rem] w-48 md:w-60  bg-gary-300'
                           src={item.prodImg}
                           alt='product'
                           height='282'
@@ -111,23 +111,77 @@ function MainForShop(props) {
                           placeholder='blur'
                           blurDataURL='data:...'
                         />{" "}
-                        <div className='flex gap-4  font-bold justify-center '>
-                          <h1 className='dark:text-gray-400 font-serif'>
-                            {item.prodName.length > 12
+                        <div className='flex gap-4  font-bold text-right justify-center '>
+                          <h1 className='dark:text-gray-400 text-right right-5 bottom-12 justify-right font-serif'>
+                            {item.prodName.length > 15
                               ? "..." + item.prodName.substr(0, 15)
                               : item.prodName}
                           </h1>
-                          <h1 className=' flex dark:text-gray-200 font-bold'>
-                            {item.price}
-                            <h1 className='opacity-80 text-xs pt-1 px-1'>
-                              ج.م
-                            </h1>
-                          </h1>
+                          <h1 className=' flex dark:text-gray-200 font-bold'></h1>
                         </div>
-                        <button className='w-28 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
-                          <h1 className='px-1 pb-1 font-extrabold'> + </h1>
-                          <h1>اضافة للسلة</h1>
-                        </button>
+                        <div className=' flex justify-center'>
+                          <div className='relative bg-gray-900/30 rounded-md h-8 w-[60%] justify-center z-10 '>
+                            <div className='mt-1 mr-2 pr-2 text-gray-300 text-center mx-auto justify-center'>
+                              <h1
+                                style={{
+                                  fontFamily: "BalooBhaijaan2",
+                                  fontWeight: "600",
+                                  textShadow:
+                                    "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
+                                }}>
+                                {item.price}
+                              </h1>
+                            </div>
+                            <button className=' flex h-8 w-8 text-center  z-20 absolute right-0 top-0  justify-center font-bold active:scale-90 duration-300 text-gray-200 rounded-md  bg-red-500'>
+                              <h1
+                                style={{
+                                  fontFamily: "BalooBhaijaan2",
+                                  fontWeight: "800",
+                                  textShadow:
+                                    "0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08)",
+                                }}
+                                className='px-2  font-extrabold'>
+                                <svg
+                                  className='px-1 mt-1 opacity-80 hover:opacity-100 duration'
+                                  version='1.1'
+                                  id='Capa_1'
+                                  xmlns='http://www.w3.org/2000/svg'
+                                  xmlnsXlink='http://www.w3.org/1999/xlink'
+                                  x='0px'
+                                  y='0px'
+                                  width='24px'
+                                  height='24px'
+                                  viewBox='0 0 459.325 459.325'
+                                  xmlSpace='preserve'>
+                                  <g>
+                                    <path
+                                      d='M459.319,229.668c0,22.201-17.992,40.193-40.205,40.193H269.85v149.271c0,22.207-17.998,40.199-40.196,40.193
+		c-11.101,0-21.149-4.492-28.416-11.763c-7.276-7.281-11.774-17.324-11.769-28.419l-0.006-149.288H40.181
+		c-11.094,0-21.134-4.492-28.416-11.774c-7.264-7.264-11.759-17.312-11.759-28.413C0,207.471,17.992,189.475,40.202,189.475h149.267
+		V40.202C189.469,17.998,207.471,0,229.671,0c22.192,0.006,40.178,17.986,40.19,40.187v149.288h149.282
+		C441.339,189.487,459.308,207.471,459.319,229.668z'
+                                    />
+                                  </g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                  <g></g>
+                                </svg>
+                              </h1>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   ))}

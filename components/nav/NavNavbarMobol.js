@@ -103,10 +103,11 @@ function NavNavbarMobol(props) {
           }}
           className=' z-70 mt-1 sm:hidden absolute pb-3 rounded-b-md w-11/12 right-1 dark:bg-gray-900/95 backdrop-blur-md mr-2 ml-3'>
           <div className='sm:hidden cursor-pointer  noselect  flex flex-cols-2 md:mr-16 lg:mr-32 xl:mr-20 2xl:mr-44 text-right justify-end  p-2  rounded-md   dark:hover:bg-gray-700 hover:bg-gray-100 duration-300'>
-            <div className='sm:hidden  mr-2 text-lg dark:text-gray-300 font-semibold'>
-              {" "}
-              هات قهوتك
-            </div>
+            <Link href='/getCoffe' passHref>
+              <div className='sm:hidden  mr-2 text-lg dark:text-gray-300 font-semibold'>
+                هات قهوتك
+              </div>
+            </Link>
             <div className='sm:hidden  right-0 '>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
