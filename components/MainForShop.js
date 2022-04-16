@@ -97,7 +97,7 @@ function MainForShop(props) {
                   .map((item, i) => (
                     <div
                       key={i}
-                      className='h-80  md:mb-1 pb-2   text-center w-48 md:w-60  '>
+                      className='max-h-80  md:mb-1 pb-2   text-center sm:w-48 md:w-60  '>
                       <div className='hover:shadow-lg relative  select-none cursor-pointer overflow-hidden hover:opacity-90 duration-300 dark:bg-gray-700  bg-gray-300 pb-3 text-center justify-center  rounded-[0.5rem] mt-6'>
                         {item.offerPricePercentage == null ? (
                           ""
@@ -118,7 +118,7 @@ function MainForShop(props) {
                         <div className='flex gap-4  font-bold justify-center '>
                           <h1 className='dark:text-gray-400 font-serif'>
                             {item.prodName.length > 12
-                              ? "..." + item.prodName.substr(0, 15)
+                              ? "..." + item.prodName.substr(0, 13)
                               : item.prodName}
                           </h1>
                           <h1 className=' flex dark:text-gray-200 font-bold'>
