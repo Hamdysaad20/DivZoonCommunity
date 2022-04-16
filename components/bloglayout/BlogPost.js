@@ -15,8 +15,6 @@ function BlogPost(props) {
           className=' object-cover rounded-t-md'
           layout='fill'
           src='https://res.cloudinary.com/divzoon2022/image/upload/v1641347288/cld-sample.jpg'
-          height='80'
-          width='80'
           placeholder='blur'
           blurDataURL='data:...'
         />
