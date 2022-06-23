@@ -3,6 +3,7 @@ import AnnoumceShop from "./adslayout/AnnoumceShop";
 import Sidenav from "./nav/Sidenav";
 import Image from "next/image";
 function MainForShop() {
+  const quantity =0;
   const productsItems = [
     {
       prodName: "قميص بايثون حجم متوسط",
@@ -128,10 +129,22 @@ function MainForShop() {
                             </h1>
                           </h1>
                         </div>
-                        <button className='w-28 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
+                      { quantity<1? <button className='w-28 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
                           <h1 className='px-1 pb-1 font-extrabold'> + </h1>
                           <h1>اضافة للسلة</h1>
+                        </button>:
+                        <div className="flex ">
+                          <button className='w-8 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
+                          <h1 className='px-1 pb-1 font-extrabold'> - </h1>
                         </button>
+                        <span>{quantity}</span>
+                        <button className='w-8 flex mx-auto justify-center font-bold active:scale-105 duration-300 text-gray-200 rounded-sm mt-1 bg-red-500'>
+                          <h1 className='px-1 pb-1 font-extrabold'> + </h1>
+                        </button>
+                        
+                        </div>
+                        
+                        }
                       </div>
                     </div>
                   ))}

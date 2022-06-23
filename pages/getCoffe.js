@@ -3,7 +3,6 @@ import NavBar from "../components/nav/NavBar";
 import NavNavbarMobol from "../components/nav/NavNavbarMobol";
 import NavnonavsBar from "../components/nav/NavnonavsBar";
 import MainDivzoonHeader from "../components/MainDivzoonHeader";
-import MainForShop from "../components/MainForShop";
 import MainCoffee from "../components/SideNavMainPages/MainCoffee";
 function getCoffe() {
   return (
