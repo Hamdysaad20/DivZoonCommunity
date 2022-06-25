@@ -5,9 +5,11 @@ import React from "react";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+<>
+<Layout>
       <Component {...pageProps} />
     </Layout>
+</>
   );
 }
 

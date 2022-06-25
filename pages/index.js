@@ -4,6 +4,9 @@ import NavNavbarMobol from "../components/nav/NavNavbarMobol";
 import NavnonavsBar from "../components/nav/NavnonavsBar";
 import MainDivzoonHeader from "../components/MainDivzoonHeader";
 export default function Home() {
+  
+ 
+  
   return (
     <div className='bg-gray-100  fixed w-full dark:bg-[#0d151d] h-full  '>
       <MainDivzoonHeader />
@@ -21,4 +24,5 @@ export default function Home() {
       <Main className='blur-xl h-screen   ' />
     </div>
   );
+ 
 }
